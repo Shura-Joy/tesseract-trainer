@@ -11,7 +11,7 @@ services:
     volumes:
       - .:/app
     environment:
-      - TESSTRAIN_FONT=AgencyFB Bold
+      - TESSTRAIN_FONT=RM2000
       - TESSTRAIN_LANG=eng
       - TESSTRAIN_MAX_PAGES=10
       - TESSTRAIN_MAX_ITERATIONS=400
